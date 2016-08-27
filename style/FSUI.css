@@ -1,0 +1,38 @@
+.directory, .link, .file {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.directory img, .link img, .file img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: 0px;
+}
+
+.directory span, .link span, .file span {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-family: arial;
+	font-size: 14px;
+	color: #666;
+	text-decoration: none;
+}
+
+i {
+	margin: 5px;
+	cursor: pointer;
+}
+
+i.new:before {
+	content: "+";
+}
+i.del:before {
+	content: "~";
+}
